@@ -1,0 +1,14 @@
+{
+  "name": "rjnode",
+  "version": "1.0.0",
+  "description": "Scripts for experimenting with",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dj@compose.com",
+  "license": "ISC",
+  "dependencies": {
+    "rethinkdb": "^2.3.2"
+  }
+}
