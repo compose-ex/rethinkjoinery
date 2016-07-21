@@ -13,7 +13,7 @@ var assets = [{
     "designer": "UK"
 }, {
     "type": "K9 Rifle",
-    "use": ["combat", "assasination"],
+    "use": ["combat", "assassination"],
     "designer": "USA"
 }, {
     "type": "Black Helicopter",
@@ -21,7 +21,7 @@ var assets = [{
     "designer": "UN"
 }, {
     "type": "Microdrone",
-    "use": ["investigation", "stealth", "assasination"],
+    "use": ["investigation", "stealth", "assassination"],
     "designer": "Global"
 }];
 

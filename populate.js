@@ -43,7 +43,7 @@ var orgs = [{
 var agents = [{
     "name": "James Bond",
     "org": "MI6",
-    "skill": ["assasination"]
+    "skill": ["assassination"]
 }, {
     "name": "Napoleon Solo",
     "org": "UNCLE",
