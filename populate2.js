@@ -32,6 +32,8 @@ r.connect(creds.creds).then((conn) => {
     conn.use("spystuff");
     return r.table("assets").insert(assets).run(globalConn);
 }).then((result) => {
+    return r.table("assets").indexCreate("designer").run(globalConn);
+}).then((result) => {
     return r.table("assets").indexCreate("use", {
         multi: true
     }).run(globalConn);
